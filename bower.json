@@ -1,0 +1,30 @@
+{
+  "name": "ZhenaiNew",
+  "description": "The new developing environment for 2015",
+  "main": "index.js",
+  "authors": [
+    "Zhenai"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "2015",
+    "Zhenai",
+    "new",
+    "developing",
+    "environment"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.1.0",
+    "jquery": "^2.2.4",
+    "seajs": "^3.0.0"
+  }
+}

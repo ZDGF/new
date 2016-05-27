@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import
+	//normalize
+	"lib/utils/scss/normalize",
+	//utils
+	"lib/utils/scss/utils";
+
+.meet_hear{
+	width: pxTorem(640);
+	height: pxTorem(88);
+	background-color:#703987;
+	font-size: pxTorem(38);
+	color: #ffffff;
+	line-height: pxTorem(80);
+	text-align: center;
+}
+
+.meet_hint{
+	width: pxTorem(640);
+	height: pxTorem(70);
+	background-color:#f1f1f1;
+	color: #0097d3;
+	font-size: pxTorem(24);
+	line-height: pxTorem(70)
+}
+
+.loudspeaker{
+	width: pxTorem(30);
+	height: pxTorem(27);
+	margin:pxTorem(20);
+	float: left;
+}
+
+.clearfix:after{
+	display:block;
+	clear:both;
+	visibility:hidden;
+	font-size:0;
+	height:0;
+	content:'';
+}
+.clearfix{
+	*zoom:1;
+}
+
+.meet_items{
+	width: pxTorem(640);
+	height: pxTorem(168);
+	.meet_avatar{
+		width: pxTorem(130);
+		height: pxTorem(130);
+		border-radius: pxTorem(5);
+		float: left;
+		margin: pxTorem(18) pxTorem(24);
+	}
+	.meet_line{
+		height: pxTorem(168);
+		display: inline-block;
+		float: left;
+	}
+	.meet_info{
+		display: inline-block;
+		margin-left: pxTorem(16);
+		margin-top: pxTorem(24);
+		.meet_menberID{
+			float:left;
+			font-size: pxTorem(32);
+			font-weight: 500;
+		}
+		.meet_icons{
+			float:left;
+			li{
+				width: pxTorem(26);
+				height: pxTorem(26);
+				list-style: none;
+				float: left;
+				margin-right: pxTorem(6);
+				vertical-align:top;
+				img{
+					width: pxTorem(26);
+					height: pxTorem(26);
+				}
+			}
+		}
+	}
+
+}
+
+
+

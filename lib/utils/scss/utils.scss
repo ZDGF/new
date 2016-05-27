@@ -1,0 +1,6 @@
+
+/*px转换rem*/
+@function pxTorem($px){
+    @return $px / 2 /20 *1rem;
+}
+
